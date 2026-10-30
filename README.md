@@ -1,1 +1,96 @@
-# changelogs
+# Lunaris 3.13 Changelogs based on Android 16
+
+- Backport recording changes from android 17
+- Backport android 17 blur
+- Backport Android 17 qs bounce animation and optimizations
+- Backport Android 17 grouped QS privacy chip
+- Backport Android 17 dialog spring animations
+- Backport and rework show selfie camera on screen recording
+- Add Duck RKP V1 provisioning with TrickyStore integration
+- Rework integriy changes
+- Improve custom rom hide
+- Introdue new Moduler Quick settings
+- Add more blur support in system
+- Introduce hyperos inspired clocks
+- Introduce clock tilt shift
+- Add qs header interactive preview
+- Introduce a native backup/restore solution
+- Introduce System Engine
+- Add Framed album media art style
+- Introduce MotoUI volume panel
+- Introduce optional Moduler quick settings
+- Introduce ios like stacked notification design
+- Introduce custom clock maker
+- Introduce custom clock layout rotaion
+- Add QuickLook support in clock maker
+- Add support for showing pulse on media controls background 
+- Implement PowerInsight
+- Introduce Lock Styles
+- Implement universal search
+- Integrate Lunaris Monet
+- Add 4 new media seekbar design
+- Improve DynamicBar
+- Introduce Lunaris Bar (Dynamic Island)
+- Add Dynamic Island for Left&right cutout
+- Fix VoIP call volume in Compose panels
+- Redesign Dialer with Compose Material 3 Expressive
+- Introduce per-app Reading mode
+- Add motion art to moduler qs
+- Alternative wallpaper zoom animation
+- Add qs spring pulldown animation
+- Rework Launcher folder
+- Refactor wallpaper carousel for Android 17 QPR1 Beta 6 style
+- Remove notification counts from folder previews
+- Add system font option for OOS clock
+- Add toggle for screenshot flash animation
+- Show normally hidden apps in drawer and universal search
+- Improve md3 activity animations
+- Complete redesign dynamic bar with blur surfaces
+- Introduce super icon style
+- Implement advanced CPU/GPU model spoofing
+- Tune scroll friction and overscroll response
+- Add glow effect for island and media
+- Allow set Bottom-aligned notification
+- Add customizable clock shadows
+- Extend edge lighting to unlocked device
+- Introduce water ripple effect for unlock and charging animation
+- Make lock screen notification anchor position adjustable
+- Add rotating empty shade messages with rounded icons
+- Add Moto compact notifications with app previews
+- Improve custom icon apply logic
+- Add optional Dynamic Island support on lock screen
+- Allow set notfication above custom clocks
+- Add third-party lockscreen app widget support
+- Add recent app quick switching for dynamicbar
+- Add lockscreen wallpaper zoom effect toggle
+- Add option to disable dynamic island in landscape
+- Make QS opening haptics optional
+- Add optional ColorOS app animations
+- Apply shared folder blur to app info and icon picker sheets
+- Preserve torch strength on power double-tap
+- Implement 3D Spatial Effect for Depth Wallpaper 
+- Redesign Package installer with Compose Material 3 Expressive
+- Add launcher3 smartspace support
+- Update low battery warning dialogs
+- Redesign settings compose homepage ui
+- Implemented OneUi Collapsing Toolbar
+- Improve pif and tricky store
+- Prevent notification taps from showing disabled lockscreen QS
+- Sync depth wallpaper subject with wallpaper zoom
+- Prevent MD3 transition animation state sharing
+- Add oem style popup on tapping music card qs widget
+- Rework gamespace, themestore, omnistyle and launcher3 UI
+- Move font and navbar customizaton in Themestore
+- Fix split screen gesture not working
+- Implement Quick Launch
+- Improve qs legacy split shade
+- Disable lockscreen notification blur while media art is visible
+- Preserve wallpaper position and zoom in carousel
+- Honor app blur preference during close animations
+- Remove duplicate wallpaper carousel entries
+- Refactor sandbox and applocker
+- Fix shade interaction boosts using the power service Binder
+- Reduce redundant shade blur update work
+- Fix utility widget mobile data flicker
+- More underhood fixes and optimizations
+- Merge latest lineage changes
