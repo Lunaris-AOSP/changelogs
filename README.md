@@ -1,96 +1,171 @@
-# Lunaris 3.13 Changelogs based on Android 16
+# Lunaris 3.13 Changelog — Android 16
 
-- Backport recording changes from android 17
-- Backport android 17 blur
-- Backport Android 17 qs bounce animation and optimizations
+**With November 2026 Security Patch [13/11]**
+
+## [30/10]
+
+- Backport Android 17 screen recording changes
+- Backport Android 17 blur improvements
+- Backport Android 17 QS bounce animations and optimizations
 - Backport Android 17 grouped QS privacy chip
 - Backport Android 17 dialog spring animations
-- Backport and rework show selfie camera on screen recording
+- Backport and rework selfie camera support for screen recording
 - Add Duck RKP V1 provisioning with TrickyStore integration
-- Rework integriy changes
-- Improve custom rom hide
-- Introdue new Moduler Quick settings
-- Add more blur support in system
-- Introduce hyperos inspired clocks
-- Introduce clock tilt shift
-- Add qs header interactive preview
-- Introduce a native backup/restore solution
+- Rework integrity changes
+- Improve custom ROM hiding
+- Introduce new Modular Quick Settings
+- Expand system-wide blur support
+- Introduce HyperOS-inspired clocks
+- Introduce clock tilt-shift effect
+- Add interactive QS header preview
+- Introduce native backup and restore solution
 - Introduce System Engine
-- Add Framed album media art style
+- Add framed album art media style
 - Introduce MotoUI volume panel
-- Introduce optional Moduler quick settings
-- Introduce ios like stacked notification design
-- Introduce custom clock maker
-- Introduce custom clock layout rotaion
-- Add QuickLook support in clock maker
-- Add support for showing pulse on media controls background 
+- Add optional Modular Quick Settings
+- Introduce iOS-inspired stacked notifications
+- Introduce custom Clock Maker
+- Add custom clock layout rotation
+- Add QuickLook support in Clock Maker
+- Add audio pulse visualization to media controls background
 - Implement PowerInsight
 - Introduce Lock Styles
-- Implement universal search
+- Implement Universal Search
 - Integrate Lunaris Monet
-- Add 4 new media seekbar design
+- Add 4 new media seekbar designs
 - Improve DynamicBar
 - Introduce Lunaris Bar (Dynamic Island)
-- Add Dynamic Island for Left&right cutout
+- Add Dynamic Island support for left and right camera cutouts
 - Fix VoIP call volume in Compose panels
 - Redesign Dialer with Compose Material 3 Expressive
-- Introduce per-app Reading mode
-- Add motion art to moduler qs
-- Alternative wallpaper zoom animation
-- Add qs spring pulldown animation
-- Rework Launcher folder
-- Refactor wallpaper carousel for Android 17 QPR1 Beta 6 style
+- Introduce per-app Reading Mode
+- Add motion art to Modular QS
+- Add alternative wallpaper zoom animation
+- Add QS spring pull-down animation
+- Rework Launcher folders
+- Refactor wallpaper carousel with Android 17 QPR1 Beta 6-inspired style
 - Remove notification counts from folder previews
-- Add system font option for OOS clock
+- Add system font option for OOS clocks
 - Add toggle for screenshot flash animation
-- Show normally hidden apps in drawer and universal search
-- Improve md3 activity animations
-- Complete redesign dynamic bar with blur surfaces
-- Introduce super icon style
+- Show normally hidden apps in app drawer and Universal Search
+- Improve Material 3 activity animations
+- Completely redesign DynamicBar with blur surfaces
+- Introduce Super Icon style
 - Implement advanced CPU/GPU model spoofing
 - Tune scroll friction and overscroll response
-- Add glow effect for island and media
-- Allow set Bottom-aligned notification
+- Add glow effects for Dynamic Island and media
+- Allow bottom-aligned notifications
 - Add customizable clock shadows
-- Extend edge lighting to unlocked device
-- Introduce water ripple effect for unlock and charging animation
-- Make lock screen notification anchor position adjustable
+- Extend edge lighting to unlocked devices
+- Introduce water ripple effects for unlock and charging animations
+- Make lockscreen notification anchor position adjustable
 - Add rotating empty shade messages with rounded icons
-- Add Moto compact notifications with app previews
-- Improve custom icon apply logic
-- Add optional Dynamic Island support on lock screen
-- Allow set notfication above custom clocks
+- Add Moto-inspired compact notifications with app previews
+- Improve custom icon application logic
+- Add optional Dynamic Island support on lockscreen
+- Allow notifications above custom clocks
 - Add third-party lockscreen app widget support
-- Add recent app quick switching for dynamicbar
+- Add recent app quick switching for DynamicBar
 - Add lockscreen wallpaper zoom effect toggle
-- Add option to disable dynamic island in landscape
+- Add option to disable Dynamic Island in landscape
 - Make QS opening haptics optional
-- Add optional ColorOS app animations
+- Add optional ColorOS-inspired app animations
 - Apply shared folder blur to app info and icon picker sheets
-- Preserve torch strength on power double-tap
-- Implement 3D Spatial Effect for Depth Wallpaper 
-- Redesign Package installer with Compose Material 3 Expressive
-- Add launcher3 smartspace support
+- Preserve torch strength on power button double-tap
+- Implement 3D Spatial Effect for Depth Wallpaper
+- Redesign Package Installer with Compose Material 3 Expressive
+- Add Launcher3 SmartSpace support
 - Update low battery warning dialogs
-- Redesign settings compose homepage ui
-- Implemented OneUi Collapsing Toolbar
-- Improve pif and tricky store
+- Redesign Settings homepage with Compose
+- Implement One UI-inspired collapsing toolbar
+- Improve PIF and TrickyStore
 - Prevent notification taps from showing disabled lockscreen QS
-- Sync depth wallpaper subject with wallpaper zoom
+- Sync Depth Wallpaper subject with wallpaper zoom
 - Prevent MD3 transition animation state sharing
-- Add oem style popup on tapping music card qs widget
-- Rework gamespace, themestore, omnistyle and launcher3 UI
-- Move font and navbar customizaton in Themestore
-- Fix split screen gesture not working
+- Add OEM-style popup when tapping QS music card widget
+- Rework GameSpace, ThemeStore, OmniStyle, and Launcher3 UI
+- Move font and navigation bar customization to ThemeStore
+- Fix split-screen gesture issues
 - Implement Quick Launch
-- Improve qs legacy split shade
+- Improve legacy QS split shade
 - Disable lockscreen notification blur while media art is visible
 - Preserve wallpaper position and zoom in carousel
-- Honor app blur preference during close animations
+- Honor app blur preferences during closing animations
 - Remove duplicate wallpaper carousel entries
-- Refactor sandbox and applocker
-- Fix shade interaction boosts using the power service Binder
-- Reduce redundant shade blur update work
-- Fix utility widget mobile data flicker
-- More underhood fixes and optimizations
-- Merge latest lineage changes
+- Refactor Sandbox and AppLocker
+- Fix shade interaction boosts using Power Service Binder
+- Reduce redundant shade blur updates
+- Fix utility widget mobile data flickering
+- Various under-the-hood fixes and optimizations
+- Merge latest LineageOS changes
+
+## [11/11]
+
+- Introduce enhanced SmartSpace
+- Refine 1x1 music tile in Modular QS
+- Added Glass CLock 
+- More advanced edgelight
+- 5g icon in 4g mode
+- Fix Modular QS battery tile click issue
+- Split Modular QS tile and slider stroke settings with adjustable stroke options
+- Fix text clipping in Lunaris Bar
+- Fix heads-up notification blur and styling during shade expansion
+- Fix per-app accessibility spoofing across framework APIs
+- Add rounded-square flat-fill style for Modular QS sliders
+- Make sound tile shape follow Modular QS tile style
+- Add fingerprint-only AOD mode
+- Introduce Edge Aurora
+- Fix tile clipping and animation issues in Modular QS
+- Remove chip blur option from Lunaris Blur
+- Automatically generate and renew Duck RKP keyboxes
+- Improve keybox parsing and patch validation
+- Add small mobile network type icons
+- Add configurable network speed indicator
+- Add AOD outline transition support in Clock Maker
+- Add clock sharing support
+- Allow customization of 5G SA network indicator style
+- Add lockscreen outline and text stroke in Clock Maker
+- Add separate time digits in Clock Maker
+- Keep notifications hidden while Modular Full QS is open
+- Add option to hide lockscreen lock icon
+- Add compact header and footer styles for Modular QS
+- Remove blur from One UI QS media tile and panel
+- Add independent blur toggles for QS and notification shade
+- Add optional top lockscreen lock icon
+- Add ColorOS-inspired popup expansion style in Lunaris Bar
+- Fix call audio highlight refresh race conditions
+- Animate media app transition feedback
+- Fix blur trails during heads-up notification dismissal
+- Add ClockMorph extra info widgets
+- Add independent extra info widgets
+- Use active album art for lockscreen blur backgrounds
+- Fix premature overflow in lockscreen notification stacks
+- Harden screen-on memory reclaim and compaction scheduling
+- Add HyperOS-inspired split shade swipe animation
+- Fix stale Depth Wallpaper layers after wallpaper changes
+- Add initial Swift Backup import and export support
+- Add call log, message, and Wi-Fi backups with Swift imports
+- Add Iris, Desaturate, and Shutter screen-off animations
+- Add lockscreen display timeout
+- Add light sensor-based theme switching
+- Make Lunaris Bar call popup compact
+- Add two-pane landscape layout for Modular QS
+- Fix Depth Wallpaper stretching after landscape sleep
+- Add Google Keep support for lockscreen notes (Android 17 QPR2)
+- Hide duplicate call icon when Lunaris call chip is shown
+- Redesign battery usage graphs
+- Allow moving the lockscreen lock icon to the top
+- Redesign Caddy-inspired app library
+- Add multiple launcher animations
+- Add optional new app drawer search bar UI
+- Improve ColorOS-inspired app opening and closing animations
+- Add batch editing for home screen apps
+- Add backdrop blur to search bar layouts
+- Add live blur and capsule background to Hotseat dock
+- Add One UI-inspired stackable widgets
+- Make Nothing OS-inspired curved app opening animation the default
+- Allow changing wallpapers in existing Knock Lock presets
+
+---
+
+**Bug Reports:** https://github.com/Lunaris-AOSP/issue_tracker
