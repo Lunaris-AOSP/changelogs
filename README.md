@@ -2,6 +2,154 @@
 
 **With November 2026 Security Patch [13/11]**
 
+## [26/11] - With more android 17 backports
+
+- Add home screen clocks with layout controls
+- Backport Android 17 screen-off fingerprint unlock fixes
+- Backport Few animation fixes from Android 17
+- Per-app hybrid rendering
+- Introduce EdgeGo gesture [BETA]
+- Introduce dynamic lockscreen clock
+- Add 3D parallax tilt for lockscreen clocks
+- Introduce oneui like clock stretch support
+- Add configurable clock digit alignment
+- Add ColorOS-style lockscreen notification pill and reveal
+- Add per-app Dexopt option
+- Add notification media player styles in moduler qs
+- Add optional MIUI corner spread animation to modular QS
+- Introduce Spatial sence in depth wallpaper
+- ClockMaker: Add per-element AOD visibility control
+- ClockMaker: Add dedicated AOD editor
+- Add custom color for Now Playing text
+- Introduce frosted blur rim customization
+- Introduce lockscreen media player style
+- Add global Blur tint and blur radius customization
+- Add icon-only active colors for 2x2 and stacked QS tiles
+- Allow customizing volume stream steps
+- Add dark status bar option for lock screen
+- Add ambient wallpaper blur control and depth support
+- LunarisBar: Smooth QS chip amimation and glow transitions
+- Align previews with the applied layout in KnockLock
+- Fix AOD transitions with custom UDFPS animations
+- Improve app lock hooks
+- Fix Compose lockscreen media touch and swipe handling
+- Reduce Modular QS jank and improve boost coverage
+- Optimize Glass Clock transitions
+- Separate data usage on modular QS network tiles
+- Support Telegram calls in dynamic island
+- LunarisBar: Add inline notification replies
+- Add per-app icon styles
+- Fix home-to-recents animation hiccup
+- Fix workspace animation on screen-off fingerprint unlock
+- Add optional two-row headers for split qs
+- Keep lock screen widgets above the depth wallpaper subject
+- Add 2×2 color os brightness and volume tiles to Modular QS
+- Optimize Glass Clock home clock fades
+- Add configurable blur to folder previews
+- Add circular expanded folder option
+- Hide app removal in iOS drawer mode
+- Smooth compact QS header clock expansion
+- Add icon shape picker to icons settings
+- Polish Optimization Engine ui
+- Add custom icon shape editor
+- Replace modular QS overflow menu with power button
+- Add folder shape picker and editor
+- Hide stale AOD content when waking to unlock
+- Make homepage navigation bar transparent
+- Fix battery usage history range and persistence
+- Decouple lockscreen and status bar Dynamic Bar settings
+- Make lockscreen notification appearance controls easy
+- Fix Smartspace page indicator flicker
+- Update launcher compose ui color specs
+- Make network speed refresh interval configurable
+- Open stacked recents cards on first tap
+- Fix recents cards remaining visible after swipe to home
+- More LMOfreeform improvements and fixes
+- Open modular QS panel settings on edit button long press
+- Morph compact volume pill into the selected Compose panel
+- Polish Dialer expressive UI
+- Refine KnockLock Compose UI with Material 3 Expressive design
+- Make step-based volume adjustment optional in Modular QS
+- Add black text option for At-a-Glance
+- Cache shade blur radius
+- Give FreeForm ui fullscreen pill design
+- Shrink QS ringer thumb in moduler qs
+- Manage shared depth models on demand
+- Add Device voice mail support
+- New bootanimation by Alec
+- Limit Kawase V2 blur passes to active image bounds
+- Use adaptive dexopt for MODE_DEEP
+- Some other fixes and improvements
+
+
+## [11/11]
+
+- Introduce enhanced SmartSpace
+- Refine 1x1 music tile in Modular QS
+- Added Glass CLock 
+- More advanced edgelight
+- 5g icon in 4g mode
+- Fix Modular QS battery tile click issue
+- Split Modular QS tile and slider stroke settings with adjustable stroke options
+- Fix text clipping in Lunaris Bar
+- Fix heads-up notification blur and styling during shade expansion
+- Fix per-app accessibility spoofing across framework APIs
+- Add rounded-square flat-fill style for Modular QS sliders
+- Make sound tile shape follow Modular QS tile style
+- Add fingerprint-only AOD mode
+- Introduce Edge Aurora
+- Fix tile clipping and animation issues in Modular QS
+- Remove chip blur option from Lunaris Blur
+- Automatically generate and renew Duck RKP keyboxes
+- Improve keybox parsing and patch validation
+- Add small mobile network type icons
+- Add configurable network speed indicator
+- Add AOD outline transition support in Clock Maker
+- Add clock sharing support
+- Allow customization of 5G SA network indicator style
+- Add lockscreen outline and text stroke in Clock Maker
+- Add separate time digits in Clock Maker
+- Keep notifications hidden while Modular Full QS is open
+- Add option to hide lockscreen lock icon
+- Add compact header and footer styles for Modular QS
+- Remove blur from One UI QS media tile and panel
+- Add independent blur toggles for QS and notification shade
+- Add optional top lockscreen lock icon
+- Add ColorOS-inspired popup expansion style in Lunaris Bar
+- Fix call audio highlight refresh race conditions
+- Animate media app transition feedback
+- Fix blur trails during heads-up notification dismissal
+- Add ClockMorph extra info widgets
+- Add independent extra info widgets
+- Use active album art for lockscreen blur backgrounds
+- Fix premature overflow in lockscreen notification stacks
+- Harden screen-on memory reclaim and compaction scheduling
+- Add HyperOS-inspired split shade swipe animation
+- Fix stale Depth Wallpaper layers after wallpaper changes
+- Add initial Swift Backup import and export support
+- Add call log, message, and Wi-Fi backups with Swift imports
+- Add Iris, Desaturate, and Shutter screen-off animations
+- Add lockscreen display timeout
+- Add light sensor-based theme switching
+- Make Lunaris Bar call popup compact
+- Add two-pane landscape layout for Modular QS
+- Fix Depth Wallpaper stretching after landscape sleep
+- Add Google Keep support for lockscreen notes (Android 17 QPR2)
+- Hide duplicate call icon when Lunaris call chip is shown
+- Redesign battery usage graphs
+- Allow moving the lockscreen lock icon to the top
+- Redesign Caddy-inspired app library
+- Add multiple launcher animations
+- Add optional new app drawer search bar UI
+- Improve ColorOS-inspired app opening and closing animations
+- Add batch editing for home screen apps
+- Add backdrop blur to search bar layouts
+- Add live blur and capsule background to Hotseat dock
+- Add One UI-inspired stackable widgets
+- Make Nothing OS-inspired curved app opening animation the default
+- Allow changing wallpapers in existing Knock Lock presets
+
+
 ## [30/10]
 
 - Backport Android 17 screen recording changes
@@ -98,73 +246,6 @@
 - Fix utility widget mobile data flickering
 - Various under-the-hood fixes and optimizations
 - Merge latest LineageOS changes
-
-## [11/11]
-
-- Introduce enhanced SmartSpace
-- Refine 1x1 music tile in Modular QS
-- Added Glass CLock 
-- More advanced edgelight
-- 5g icon in 4g mode
-- Fix Modular QS battery tile click issue
-- Split Modular QS tile and slider stroke settings with adjustable stroke options
-- Fix text clipping in Lunaris Bar
-- Fix heads-up notification blur and styling during shade expansion
-- Fix per-app accessibility spoofing across framework APIs
-- Add rounded-square flat-fill style for Modular QS sliders
-- Make sound tile shape follow Modular QS tile style
-- Add fingerprint-only AOD mode
-- Introduce Edge Aurora
-- Fix tile clipping and animation issues in Modular QS
-- Remove chip blur option from Lunaris Blur
-- Automatically generate and renew Duck RKP keyboxes
-- Improve keybox parsing and patch validation
-- Add small mobile network type icons
-- Add configurable network speed indicator
-- Add AOD outline transition support in Clock Maker
-- Add clock sharing support
-- Allow customization of 5G SA network indicator style
-- Add lockscreen outline and text stroke in Clock Maker
-- Add separate time digits in Clock Maker
-- Keep notifications hidden while Modular Full QS is open
-- Add option to hide lockscreen lock icon
-- Add compact header and footer styles for Modular QS
-- Remove blur from One UI QS media tile and panel
-- Add independent blur toggles for QS and notification shade
-- Add optional top lockscreen lock icon
-- Add ColorOS-inspired popup expansion style in Lunaris Bar
-- Fix call audio highlight refresh race conditions
-- Animate media app transition feedback
-- Fix blur trails during heads-up notification dismissal
-- Add ClockMorph extra info widgets
-- Add independent extra info widgets
-- Use active album art for lockscreen blur backgrounds
-- Fix premature overflow in lockscreen notification stacks
-- Harden screen-on memory reclaim and compaction scheduling
-- Add HyperOS-inspired split shade swipe animation
-- Fix stale Depth Wallpaper layers after wallpaper changes
-- Add initial Swift Backup import and export support
-- Add call log, message, and Wi-Fi backups with Swift imports
-- Add Iris, Desaturate, and Shutter screen-off animations
-- Add lockscreen display timeout
-- Add light sensor-based theme switching
-- Make Lunaris Bar call popup compact
-- Add two-pane landscape layout for Modular QS
-- Fix Depth Wallpaper stretching after landscape sleep
-- Add Google Keep support for lockscreen notes (Android 17 QPR2)
-- Hide duplicate call icon when Lunaris call chip is shown
-- Redesign battery usage graphs
-- Allow moving the lockscreen lock icon to the top
-- Redesign Caddy-inspired app library
-- Add multiple launcher animations
-- Add optional new app drawer search bar UI
-- Improve ColorOS-inspired app opening and closing animations
-- Add batch editing for home screen apps
-- Add backdrop blur to search bar layouts
-- Add live blur and capsule background to Hotseat dock
-- Add One UI-inspired stackable widgets
-- Make Nothing OS-inspired curved app opening animation the default
-- Allow changing wallpapers in existing Knock Lock presets
 
 ---
 
